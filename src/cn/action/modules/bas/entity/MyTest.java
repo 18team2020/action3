@@ -2,6 +2,10 @@ package cn.action.modules.bas.entity;
 
 public class MyTest {
 
+    private int id;
+
+    private int card;
+
     public int getId() {
         return id;
     }
@@ -10,5 +14,4 @@ public class MyTest {
         this.id = id;
     }
 
-    private int id;
 }
